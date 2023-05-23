@@ -1,0 +1,18 @@
+﻿@model IDGS903_Tema1.Models.Distancia
+
+@{
+    ViewBag.Title = "Distancia2";
+}
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Distancia Resultado</h4>
+        <hr />
+        
+        <h1> El resultado es : @Html.DisplayFor(model => Model.Resultado)</h1>
+    </div>
+}

@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Vista2";
+}
+
+<h2>Vista2</h2>
+
+<h1>Datos ViewBag</h1>
+<h2>@ViewBag.saludo</h2>
+<h3>@ViewData["Nombre"]</h3>
+<h2>@ViewBag.NombreNuevo</h2>
+
+@Html.ActionLink("Ruta Nueva","Index","Home",null, new {miAtributo="valor1", @class="btn btn-danger"})
