@@ -127,10 +127,12 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NuevoController.cs" />
     <Compile Include="Controllers\TiendaController.cs" />
+    <Compile Include="Controllers\TrianguloController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Alumnos.cs" />
+    <Compile Include="Models\Coordenadas.cs" />
     <Compile Include="Models\Diccionario.cs" />
     <Compile Include="Models\Distancia.cs" />
     <Compile Include="Models\Maestros.cs" />
@@ -214,6 +216,7 @@
     <Content Include="Views\Archivos\LeerDatos.cshtml" />
     <Content Include="Views\Diccionario\Registrar.cshtml" />
     <Content Include="Views\Diccionario\Traductor.cshtml" />
+    <Content Include="Views\Triangulo\Puntos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
